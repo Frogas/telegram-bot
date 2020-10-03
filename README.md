@@ -12,7 +12,7 @@ $./start-ubuntu.sh
 
 #apt install git
 
-#git clone https://github.com/iCat21/telegram-bot
+#git clone https://github.com/Shikukiza/telegram-bot
 
 #apt install nano
 

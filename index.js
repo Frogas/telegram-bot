@@ -11,7 +11,7 @@ client.onText(/\/start/, msg => {
   const chatId = msg.chat.id;
   const reply = { reply_to_message_id: msg.message_id };
   const name = msg.from.first_name;
-  client.sendMessage(chatId, "Welcome, " + msg.from.first_name + "!", reply);
+  client.sendMessage(chatId, "Welcome, " + name + "!", reply);
 });
 
 //akses untuk exit bot!
@@ -19,5 +19,5 @@ client.onText(/\/exit/, msg => {
   const chatId = msg.chat.id;
   const reply = { reply_to_message_id: msg.message_id };
   const name = msg.from.first_name;
-  client.sendMessage(chatId, "Bye-Bye, " + msg.from.first_name + "!", reply);
+  client.sendMessage(chatId, "Bye-Bye, " + name + "!", reply);
 });

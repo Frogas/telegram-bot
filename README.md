@@ -8,6 +8,8 @@ $pkg update -y && pkg install curl proot tar -y && curl https://raw.githubuserco
 
 $./start-ubuntu.sh
 
+#apt update -y && apt upgrade -y
+
 #apt install git
 
 #git clone https://github.com/iCat21/telegram-bot

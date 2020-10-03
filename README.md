@@ -1,4 +1,4 @@
-# telegram-bot in Termux 
+# Telegram Bot khusus untuk Termux
 
 TelegramBot API
 
@@ -31,6 +31,8 @@ lepas sdh klik ctrl x terus ctrl y
 #node index.js
 
 nah seterusnya cek bot kalian ketik /start
+
+# Catatan
 
 Selamat Mencoba :)
 

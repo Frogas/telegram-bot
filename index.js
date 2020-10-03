@@ -1,5 +1,5 @@
 const TelegramBot = require("node-telegram-bot-api");
-const token = "1266285550:AAFsp7I-r6TqXamD2zAVgaLuBLAHPJ0KOBw";
+const token = "Masukan Token Botnya";
 const bot = new TelegramBot(token, { polling: true });
 
 bot.on('message', (msg) => {
